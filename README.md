@@ -1,30 +1,22 @@
-# 🌐 Eric Laine – Personal Website
+# Eric Laine — Personal Website
 
-Welcome to the source code for my personal website, built to reflect my journey as an educator, entrepreneur, and EdTech strategist. This site showcases my resume, skills, and projects with a warm, Minnesota-inspired aesthetic aligned with my LanguageLand EdTech brand.
+A concise professional portfolio for Eric Laine, focused on renewals, customer growth, trusted relationships, education, and cross-cultural leadership.
 
-## 🧭 About
+## Stack
 
-I'm an EdTech innovator and multilingual communicator with over 9 years of global experience. This site offers a visual summary of my background in:
+- Semantic HTML
+- CSS with responsive layout and reduced-motion support
+- One local portrait asset
+- No build step or runtime dependencies
 
-- 🚀 Educational Product Innovation
-- 🎥 Social Media & Community Growth (200K+ followers)
-- 🌍 Cross-Cultural Business Leadership (Fluent in Mandarin)
-- 💡 EdTech & Literacy Program Development
-
-The design is clean, calming, and built to feel trustworthy—like Minnesota lakes and blue skies—while staying modern and recruiter-friendly.
-
-## 🛠️ Tech Stack
-
-- **HTML5** & **CSS3**
-- **Vanilla JavaScript** (modular with `resume.js`)
-- Responsive Design (mobile-ready)
-- Future upgrades will use modular JS animations and dynamic project cards
-
-## 📁 Folder Structure
+## Local preview
 
 ```bash
-.
-├── index.html          # Main homepage layout
-├── style.css           # Custom styling with Minnesota & EdTech palette
-├── resume.js           # JavaScript injecting dynamic resume content
-├── /assets             # (Optional) Directory for images or media
+python3 -m http.server 4173
+```
+
+Then open <http://localhost:4173>.
+
+## Content source
+
+Current role and achievement language were cross-referenced against Eric's LinkedIn profile. The site intentionally avoids publishing a phone number and keeps the public contact path to email and LinkedIn.
